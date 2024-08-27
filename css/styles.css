@@ -1,0 +1,660 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #c4d2e7;
+}
+
+/* Estilos del header */
+header {
+    background-color: #a6bddc;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: medium;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+header img {
+    max-width: 100%;
+    width: 50px;
+}
+
+.btn-custom {
+    color: black;
+    background-color: #739bc4; 
+    border-color: #739bc4;
+}
+
+.btn-custom:hover {
+    color: black;
+    background-color: #486f99;
+    border-color: #486f99;
+}
+
+/* Estilos del main */
+main {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    text-align: center;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5; 
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Estilo de seccion nosotros */
+.sobre-nosotros {
+    background-color: #a6bddc;
+    padding: 40px 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h2-left {
+    color: white;
+    font-size: xx-large;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    border-left: 5px solid #739bc4; 
+    padding-left: 10px;
+}
+
+.nosotros {
+    max-width: 60%;
+}
+
+.nosotros h4 {
+    color: darkslategray; 
+    font-size: 15px; 
+    line-height: 1.6rem;
+    text-align: right;
+}
+
+/* Estilo de seccion blog */
+.section-blog {
+    background-color: #486f99; 
+    padding: 40px 20px;
+}
+
+.h2-center {
+    text-align: center; 
+    color: white;
+    font-size: xx-large; 
+    text-transform: uppercase; 
+    margin-bottom: 30px; 
+    border-bottom: 5px solid #739bc4; 
+    padding-bottom: 10px; 
+    width: fit-content;  
+    margin-left: auto;  
+    margin-right: auto; 
+    display: block;
+}
+
+.blog-cards {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap;
+}
+
+.card-blog {
+    background-color: white; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+    border: none; 
+    overflow: hidden;
+}
+
+.card-img-top {
+    width: 100%; 
+    height: auto;
+}
+
+.card-blog iframe {
+    width: 100%; 
+    height: auto;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-pa {
+    color: darkslategray; 
+    font-size: 14px; 
+    line-height: 1.6rem; 
+    text-align: center;
+}
+
+/* Estilo de seccion contacto */
+.section-contacto {
+    background-color: #a6bddc;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacto {
+    flex: 1;
+}
+
+.contacto h2 {
+    color: white;
+    font-size: xx-large;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    border-left: 5px solid #739bc4; 
+    padding-left: 10px;
+}
+
+.form {
+    flex: 2; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+label {
+    color: black; 
+    font-size: 14px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    border: 1px solid #cccccc; 
+    padding: 10px; 
+    font-size: 14px; 
+    border-radius: 5px; 
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.send {
+    background-color: #739bc4;
+    color: white; 
+    padding: 10px 20px; 
+    border: #486f99; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.send:hover {
+    color: black;
+    background-color: #486f99;
+    border-color: #486f99;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #486f99; 
+    padding: 8px; 
+    text-align: center;
+    color: black;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+footer a {
+    text-decoration: none; 
+    margin-bottom: 8px; /
+}
+
+footer img {
+    width: 50px; 
+}
+
+/* Nosotros */
+.sectiones-centrales {
+    background-color: #486f99; 
+    padding: 40px 20px;
+}
+
+.titulares {
+    text-align: center; 
+    color: white;
+    font-size: xx-large; 
+    text-transform: uppercase; 
+    margin-bottom: 100px; 
+    border-top: 5px solid #739bc4; 
+    padding-top: 10px; 
+    width: fit-content;  
+    margin-left: auto;  
+    margin-right: auto; 
+    display: block;
+}
+
+.presentacion {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #a6bddc;
+}
+
+.presentacion div:first-child {
+    flex: 0 0 30%; 
+    padding-right: 80px;
+}
+
+.presentacion div img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+
+.nosotros2 {
+    flex: 1; 
+    padding-left: 20px;
+    margin-right: 50px;
+}
+
+.nosotros2 h4 {
+    font-size: 16px;
+    line-height: 1.6rem;
+    color: darkslategray;
+    text-align: justify;
+    margin-right: 0;
+}
+
+.main-servicios {
+    background-color: #486f99;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.h2-servicios {
+    text-align: center; 
+    color: white;
+    font-size: xx-large; 
+    text-transform: uppercase; 
+    margin-bottom: 30px; 
+    border-bottom: 5px solid #739bc4; 
+    padding-bottom: 10px; 
+    width: fit-content;  
+    margin-left: auto;  
+    margin-right: auto; 
+    display: block;
+}
+
+.servicio-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+}   
+
+.card-servicio {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 18rem;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.card-servicio:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.aseguradoras {
+    display: flex;
+    align-items: center;
+    background-color: #a6bddc;
+    padding: 40px 20px; 
+    justify-content: space-between;
+}
+
+.compañias {
+    color: white;
+    font-size: xx-large;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    border-left: 5px solid #739bc4; 
+    padding-left: 10px;
+}
+
+.compañias-container {
+    flex: 0 0 40%; 
+}
+
+.imagenes-container {
+    flex: 1; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imagenes-container img {
+    max-width: 100px; 
+    margin: 5px;
+}
+
+/* Seguros */
+
+.main-seguros {
+    background-color: #c4d2e7;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.seguros-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+}   
+
+.card-seguro {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 18rem;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.card-seguro:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+/* Blog */
+.section-blog2 {
+    background-color: #a6bddc; 
+    padding: 40px 20px;
+}
+
+/* Contacto */
+
+.main-contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.oficina {
+    color: white;
+    font-size: xx-large;
+    text-transform: uppercase;
+    margin-right: 20px;
+    border-right: 5px solid #739bc4; 
+    padding-right: 10px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+    header img {
+        width: 40px;
+    }
+    
+    .card-title {
+        font-size: 2.5rem;
+    }
+
+    .card-img-overlay {
+        width: 85%;
+    }
+    
+    .card-text {
+        font-size: 1.25rem;
+    }
+    
+    .sobre-nosotros, .section-blog, .section-contacto, .sectiones-centrales {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nosotros {
+        max-width: 80%;
+    }
+
+    .blog-cards, .servicio-cards, .seguros-cards, .imagenes-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presentacion div:first-child {
+        flex: 0 0 100%;
+        padding-right: 20px;
+    }
+
+    .nosotros2 {
+        padding-left: 0;
+        margin-right: 0;
+    }
+
+    .contacto {
+        flex: 0 0 100%;
+        text-align: center;
+    }
+    
+    .form {
+        flex: 1;
+        width: 100%;
+    }
+
+    .h2-left, .h2-center, .compañias, .oficina {
+        font-size: large;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header img {
+        width: 30px;
+    }
+
+    .card-title {
+        font-size: 2rem;
+    }
+
+    .card-img-overlay {
+        width: 90%;
+        padding: 15px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .card-text, .nosotros h4, .card-pa, .card-p {
+        font-size: 1rem;
+    }
+
+    .card, .card-blog, .card-servicio, .card-seguro {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .presentacion div:first-child {
+        flex: 0 0 100%;
+        padding-right: 0;
+    }
+
+    .imagenes-container img {
+        max-width: 80px;
+    }
+
+    .h2-left, .h2-center, .compañias, .oficina {
+        font-size: medium;
+    }
+
+    .h2-servicios {
+        font-size: large;
+    }
+
+    .btn-custom, .send {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .blog-cards, .servicio-cards, .seguros-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presentacion div:first-child {
+        padding-right: 0;
+    }
+    
+    .nosotros2 {
+        padding-left: 0;
+        margin-right: 0;
+    }
+
+    .imagenes-container {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .card-text, .nosotros h4, .card-pa, .card-p {
+        font-size: 0.875rem;
+    }
+
+    .card-img-overlay {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .h2-left, .h2-center, .compañias, .oficina {
+        font-size: small;
+    }
+
+    .h2-servicios {
+        font-size: medium;
+    }
+
+    .btn-custom, .send {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .presentacion {
+        flex-direction: column;
+    }
+
+    .presentacion div:first-child {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .imagenes-container img {
+        max-width: 60px;
+    }
+    
+    .contacto, .form {
+        width: 100%;
+        text-align: center;
+    }
+
+    button {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+}
